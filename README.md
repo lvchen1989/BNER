@@ -1,4 +1,4 @@
-A deep learning framework for clinical disorder recognition
+A deep learning framework for biomedical named eitity recognition
 ======
 ClinicalDisorder is a package for biomedical named eitity recognition using recurrent neural networks based on package [LibN3L](https://github.com/SUTDNLP/LibN3L). 
 
