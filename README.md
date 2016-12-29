@@ -36,7 +36,7 @@ This is a training example.
 
 The demo system includes BNER sample data(["sample.txt"](JNLPBA/example/sample.txt), English word embeding sample file(["sena.emb"](embeddings/senna/sena.emb)) and parameter setting file(["option.tune"](JNLPBA/example/option.tune.pub.C.drop0.notune.h100)). All of these files are in the path described in the above trainning command.
  
-This demo system runs a ***LSTMCRFMLLabeler*** model which means a bidirectional LSTM neural network and use CRF maximun margin as the objective function. 
+This demo system runs a ***LSTMCRFMLLabeler*** model which means a bidirectional LSTM neural network and use CRF maximun likelihood as the objective function. 
 
 The demo system will generate model file: "demoLSTMMM50.model" at ["example"](JNLPBA/example).
 
