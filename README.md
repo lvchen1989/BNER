@@ -1,6 +1,6 @@
 A deep learning framework for biomedical named eitity recognition
 ======
-ClinicalDisorder is a package for biomedical named eitity recognition using recurrent neural networks based on package [LibN3L](https://github.com/SUTDNLP/LibN3L). 
+BNER is a package for biomedical named eitity recognition using recurrent neural networks based on package [LibN3L](https://github.com/SUTDNLP/LibN3L). 
 
 System configuration
 ======
@@ -45,11 +45,11 @@ Test:
 
 This is a test example.
 
-* ./LSTMNoCharCRFMMLabeler -test example/testsample.txt -model example/demoLSTMMM50.model -output data/testLSTMMM50.output
+* ./LSTMCRFMLLabeler -test example/testsample.txt -model example/demoLSTMMM50.model -output data/testLSTMMM50.output
 
 -test: test set.
 
--model: the model used for testing. "demoLSTMMM50.model" at ["example"](JNLPBA/example) is our trained model using Bi-LSTM and Clinical embeddings(50 dim.)
+-model: the model used for testing. "demoLSTMMM50.model" at ["example"](JNLPBA/example) is our trained model using Bi-LSTM and Biomedical embeddings(50 dim.)
 
 -outoput: the predicted result fot the test file (["testsample.txt"](JNLPBA/example/sample.txt)) based on the model "demoLSTMMM50.model".
 
